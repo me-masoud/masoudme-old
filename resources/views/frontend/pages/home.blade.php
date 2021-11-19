@@ -3,7 +3,7 @@
         <div class="w-1/2 md:w-1/3 text-center m-auto">
             <img src="{{asset('img/user.jpg')}}"
                  class="rounded-full"
-                 alt="Al Imran Ahmed"/>
+                 alt="Masoud Hosseiny"/>
         </div>
         <div class="w-full md:w-2/3 mt-10 md:ml-10">
             <h3>Hi</h3>

@@ -30,7 +30,7 @@ class CommentTest extends TestCase
         Livewire::test(Comments::class, ['article' => $article])
             ->set('comment.content', $content = 'test comment')
             ->set('comment.email', $email = 'test@example.com')
-            ->set('comment.name', $name = 'Al Imran Ahmed')
+            ->set('comment.name', $name = 'Masoud Hosseiny')
             ->set('comment.notify', 1)
             ->call('add');
 

@@ -34,7 +34,7 @@
         <a href="/" class="flex items-center">
             <img src="{{asset('img/logo.png')}}" alt="logo"
                  class="rounded-full h-10 w-10 object-cover object-center">
-            <div class="ml-4 font-semibold">Al Imran Ahmed</div>
+            <div class="ml-4 font-semibold">Masoud</div>
         </a>
 
         <a class="rounded-full text-red-900 bg-red-500 hidden sm-hide-menu"

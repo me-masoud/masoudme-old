@@ -23,8 +23,8 @@ class UserFactory extends Factory
     {
         return [
             'title' => 'Mr',
-            'name' => 'Al Imran Ahmed',
-            'username' => 'imran',
+            'name' => 'Masoud Hosseiny',
+            'username' => 'Masoud',
             'email' => $this->faker->email,
             'password' => bcrypt('secret'),
             'token' => null,
