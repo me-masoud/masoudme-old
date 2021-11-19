@@ -14,7 +14,7 @@ class ContactFormTest extends TestCase
     public function testSubmit()
     {
         Mail::fake();
-        Config::create(['name' => 'admin_email', 'value' => 'imran@example.com']);
+        Config::create(['name' => 'admin_email', 'value' => 'masoud@example.com']);
 
         Livewire::test(ContactForm::class)
             ->set('name', $name = 'Test User')

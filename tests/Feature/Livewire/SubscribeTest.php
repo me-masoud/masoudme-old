@@ -16,7 +16,7 @@ class SubscribeTest extends TestCase
         Mail::fake();
 
         Livewire::test(Subscribe::class)
-            ->set('email', $email = 'imran@gmail.com')
+            ->set('email', $email = 'masoud@gmail.com')
             ->call('subscribe');
 
         $this->assertDatabaseHas('subscribers', [

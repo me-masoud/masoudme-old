@@ -12,10 +12,10 @@ class ConfigsTableSeeder extends Seeder
     public function run()
     {
         \App\Models\Config::insert([
-            ['name' => 'site_name', 'value' => 'Al- Imran Ahmed (-'],
-            ['name' => 'site_title', 'value' => 'Al- Imran Ahmed (-'],
-            ['name' => 'copyright_owner', 'value' => 'Al- Imran Ahmed (-'],
-            ['name' => 'admin_email', 'value' => 'al.imran.cse@gmail.com'],
+            ['name' => 'site_name', 'value' => 'Masoud Hosseiny (-'],
+            ['name' => 'site_title', 'value' => 'Masoud Hosseiny (-'],
+            ['name' => 'copyright_owner', 'value' => 'Masoud Hosseiny (-'],
+            ['name' => 'admin_email', 'value' => 'masoudhosseiny@gmail.com'],
         ]);
     }
 }

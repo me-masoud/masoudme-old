@@ -22,7 +22,7 @@ class CommentTest extends TestCase
     {
         Mail::fake();
 
-        Config::create(['name' => 'admin_email', 'value' => 'imran@example.com']);
+        Config::create(['name' => 'admin_email', 'value' => 'masoud@example.com']);
         Role::findOrCreate('reader');
 
         $article = Article::factory()->create();
