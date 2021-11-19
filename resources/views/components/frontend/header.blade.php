@@ -11,7 +11,7 @@
 
     <link rel="shortcut icon" type="image/png" href="{{asset('img/favicon.png')}}"/>
 
-    <title>{{isset($article) ? $article->heading : $globalConfigs->site_title}}</title>
+    <title>{{isset($article) ? $article->heading : $globalConfigs->site_title}}a</title>
 
     <x-frontend.google-analytics/>
 
