@@ -179,6 +179,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\ViewServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
     ],
 
     /*
@@ -229,6 +230,8 @@ return [
         'Broadcast' => Illuminate\Support\Facades\Broadcast::class,
         //custom added
         'Bugsnag' => Bugsnag\BugsnagLaravel\Facades\Bugsnag::class,
+        'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
+
     ],
 
 ];
